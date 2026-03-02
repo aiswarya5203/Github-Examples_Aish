@@ -1,9 +1,11 @@
 name: Scheduler
-run-name: "Aish scheduler in prgress" #custom static run name
+
+run-name: "Aish scheduler in progress"
+
 on:
-  window_dispatch:
+  workflow_dispatch:
   schedule:
-   - cron: '15 12 * 5 *'
+    - cron: '15 12 * 5 *'
 
 jobs:
   hello_world:
