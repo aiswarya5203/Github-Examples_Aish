@@ -1,3 +1,5 @@
+name: Scheduler
+run-name: "Aish scheduler in prgress" #custom static run name
 on:
   schedule:
    - cron: '15 12 * 5 *'
